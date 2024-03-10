@@ -4,6 +4,7 @@ import { Layout } from '../components/Layout';
 
 import { Transition } from '../components/Transition';
 
+
 import { useRouter } from 'next/router';
 import { AnimatePresence, motion } from 'framer-motion';
 
