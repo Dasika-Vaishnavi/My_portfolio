@@ -31,15 +31,15 @@ const Services = () => {
                       I specialize in creating custom web applications and websites that are not only visually stunning 
                       Here are some of the services I offer. YouI offer the following services. 
                   </motion.p>
-                  <div 
+              </div>
+              <div 
                   variants = {fadeIn('down', 0.6)}
                   initial = 'hidden'
                   animate = 'show'
-                  exit = 'hiddem' 
+                  exit = 'hidden' 
                   className='w-full xl:max-w-[65%]'
                   >
                         <ServiceSlider />
-                  </div>
               </div>
           </div>
           <Bulb />
